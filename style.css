@@ -1,0 +1,183 @@
+body {
+  font-family: "roboto", arial, sans-serif;
+}
+
+.nav_bar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.nav_bar .nav_items {
+  margin: 10px 15px 10px 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.main_img {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+.main_img .google_img {
+  width: 500px;
+  height: 200px;
+}
+
+.search_bar {
+  display: flex;
+  justify-content: center;
+  margin: 1.7rem;
+}
+.search_bar .text_input {
+  width: 582px;
+  height: 44px;
+  border-radius: 25px;
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.search_bar .submit_btn {
+  padding: 8px 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+  #text-inp {
+    width: 300px;
+  }
+  #google_image {
+    width: 300px;
+    height: 150px;
+  }
+}
+.main_search_img {
+  display: flex;
+  justify-content: center;
+  margin-top: 14rem;
+  position: relative;
+}
+
+.images_text {
+  position: relative;
+  right: 55px;
+  top: 55px;
+  color: #4285f4;
+}
+
+.google_btn {
+  border: none;
+}
+
+.advanced_nav {
+  display: flex;
+  margin: 25px;
+}
+
+.header_section {
+  display: flex;
+  justify-content: start;
+}
+.header_section .label {
+  margin: 50px;
+  color: #d93025;
+  font-size: 20px;
+}
+
+hr {
+  border-width: 1px;
+}
+
+.form-headings {
+  display: flex;
+  justify-content: flex-start;
+  margin: 50px;
+}
+.form-headings .heading_1 {
+  padding-right: 680px;
+}
+
+.form_group {
+  display: flex;
+}
+.form_group .all_these {
+  margin-left: 50px;
+  margin-right: 100px;
+}
+.form_group .important {
+  margin-left: 15px;
+}
+
+.all_input {
+  width: 572px;
+  height: 29px;
+}
+
+.exact_word {
+  margin-left: 50px;
+  margin-right: 28px;
+}
+
+.quotes {
+  margin-left: 15px;
+}
+
+.any_word {
+  margin-left: 50px;
+  margin-right: 71px;
+}
+
+.type_or {
+  margin-left: 15px;
+}
+
+.none_word {
+  margin-left: 50px;
+  margin-right: 61px;
+}
+
+.minus_sign {
+  margin-left: 15px;
+}
+
+.right-align {
+  display: flex;
+  justify-content: flex-end;
+  width: 840px;
+}
+
+.blue-button {
+  background-color: #4d90fe;
+  color: white;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  outline: 0;
+  text-align: center;
+  white-space: nowrap;
+  border-style: none;
+  padding: 10px;
+  width: 120px;
+  margin-top: 20px;
+}
+
+.advanced_nav {
+  display: flex;
+  flex-direction: row;
+}
+.advanced_nav .adv_items {
+  position: relative;
+  left: 1500px;
+}
+.advanced_nav .nav_items_adv {
+  margin: 10px 15px 10px 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}/*# sourceMappingURL=style.css.map */
